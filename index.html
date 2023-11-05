@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfo<span>lio</span></div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+        <div class="text">
+            <p>Hello I am</p>
+            <h1>Animesh Sahoo</h1>
+            <p>And I am a Front End Developer</p>
+            <button class="btn" >Hire me</button>
+        </div>
+    </header>
+    <section id="about">
+        <div class="info">
+            <h1>About</h1>
+            <p>Who I am</p>
+        </div>
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="./portfolioimg/about.jpg">
+            </div>
+            <div class="about-right-col">
+            <p id="title">Hello I'm Animesh and i am a youtuber</p>
+            <p>Astrology is a pseudoscience that predicts events based on the positions of celestial bodies. <br>
+                Astrology is based on the belief that the movement of planets, stars, the sun, and the moon can determine a person's fate.<br>
+                 Astrology also believes that people are born under a specific zodiac sign</p>
+                 <button class="btn">Download CV</button>
+                 </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-info">
+    <h1 style="color:white;">Skills</h1>
+    <p>Who I am</p>
+    </div>
+    <div class="skills-row">
+        <div class="skills-left-col">
+            <p>Astrology is a pseudoscience that predicts events based on the positions of celestial bodies. <br>
+               Astrology is based on the belief that the movement of planets, stars, the sun, and the moon can determine a person's fate.<br>
+               Astrology also believes that people are born under a specific zodiac sign</p>
+                 <button class="btn">Read more</button>
+            <div class="skills-right-col"> 
+                <div class="progress-div">
+                    <p>
+                        <span>HTML</span>
+                    <progress value="80" max="100"></progress>
+                    <span>80%</span>
+                    </p>
+                    <p>
+                        <span>CSS</span>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                        </p>
+                        <p>
+                            <span>Javascript</span>
+                            <progress value="30" max="100"></progress>
+                            <span>30%</span>
+                            </p>
+                            <p>
+                                <span>Java</span>
+                                <progress value= "90" max="100"></progress>
+                                <span>90%</span>
+                                </p>
+                                <p>
+                                    <span>C</span>
+                                    <progress value="80" max="100"></progress>
+                                    <span>80%</span>
+                                    </p>
+
+                </div> 
+        </div>
+    </div>
+    </div>
+    </section>
+    <section id="services">
+    <div class="section-info">
+        <h1>Services</h1>
+        <p>what we provide</p>
+        </div>
+        <div class="services-row">
+            <div class="services-box">
+                <img src="./portfolioimg/b2.png">
+                <h2>Web design</h2>
+                <p>Astrology is a pseudoscience that predicts events based on the positions of celestial bodies. <br>
+                    Astrology is based on the belief that the movement of planets, stars, the sun, and the moon can determine a person's fate.</p>
+            </div>
+            <div class="services-box">
+                <img src="./portfolioimg/b2.png">
+                <h2>Web Development</h2>
+                <p>Astrology is a pseudoscience that predicts events based on the positions of celestial bodies. <br>
+                    Astrology is based on the belief that the movement of planets, stars, the sun, and the moon can determine a person's fate.</p>
+            </div>
+            <div class="services-box">
+                <img src="./portfolioimg/b2.png">
+                <h2>Apps development</h2>
+                <p>Astrology is a pseudoscience that predicts events based on the positions of celestial bodies. <br>
+                    Astrology is based on the belief that the movement of planets, stars, the sun, and the moon can determine a person's fate.</p>
+                
+            </div>
+        </div>
+        </section>
+        <section id="contact">
+            <div class="section-info" style="color:white">
+                <h1>Get in Touch</h1>
+                <p style="color:black">We are available</p>
+            </div>
+            <div class="contact-row">
+                <div class="contact-left-col">
+                    <img src="./portfolioimg/b3.png">
+                     </div>
+                <div class="contact-right-col"> 
+                    <form>
+                        <h2>Connect with us</h2>
+                        <input type="text" name="" placeholder="name">
+                        <input type="email" name="" placeholder="E-mail"><br>
+                        <textarea cols="40" rows="10" placeholder="message"></textarea><br><br>
+                        <buttton class="btn">Submit</buttton>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <h2>Developed by Animesh Sahoo</h2>
+            <img src="./portfolioimg/icon.png" width="100">
+            <script src="D:\Animesh Workspace\ProdigyInternship\portfolio\jquery.ripples-master\jquery.ripples-master\dist\jquery.ripples-min.js"></script>
+            <script>
+                jQuery(document).ready(function(){
+                    $('header').ripples({
+             dropRadius:20,
+             perturbance: 0.03,
+             });
+                });
+            </script>
+        </section>
+        </body>
+        </html>
